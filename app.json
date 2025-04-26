@@ -1,0 +1,77 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1080828,
+    "appName": "Default Speed In Knots",
+    "appType": "app",
+    "extType": "workout",
+    "version": {
+      "code": 1,
+      "name": "0.1.1"
+    },
+    "icon": "icon.png",
+    "vender": "huami",
+    "description": "Shows the speed in the default workout extension in knots."
+  },
+  "permissions": ["data:user.hd.workout"],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "common": {
+      "module": {
+        "data-widget": {
+          "widgets": [
+            {
+              "path": "data-widget/common/index",
+              "name": "Default Speed In Knots Extension",
+              "icon": "icon.png",
+              "window": {
+                "isPinned": 0
+              },
+              "runtime": {
+                "ability": [
+                  {
+                    "type": 1,
+                    "subType": [62, 64, 65, 66, 68, 106, 124, 133, 138, 140, 141, 180, 200, 201, 202]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "st": "r"
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "data-widget": {
+        "widgets": [
+          {
+            "name": "Default speed in knots"
+          }
+        ]
+      }
+    },
+    "it-IT": {
+      "data-widget": {
+        "widgets": [
+          {
+            "name": "Velocità predefinita in nodi"
+          }
+        ]
+      }
+    }
+  },
+  "defaultLanguage": "en-US"
+}

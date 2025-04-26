@@ -1,0 +1,18 @@
+{
+  "name": "default-speed-in-knots",
+  "version": "0.1.0",
+  "description": "Shows the speed in the default workout extension in knots.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "zeus dev",
+    "build": "zeus build",
+    "preview": "zeus preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0",
+    "@zeppos/zeus-cli": "^1.5.0"
+  }
+}
