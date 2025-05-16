@@ -1,6 +1,6 @@
 {
   "name": "default-speed-in-knots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shows the speed in the default workout extension in knots.",
   "main": "app.js",
   "scripts": {
